@@ -14,6 +14,7 @@ import AboutPage from 'src/pages/AboutPage'
 const Routes = () => {
   return (
     <Router>
+      <Route path="/contact" page={ContactPage} name="contact" />
       <Route path="/blog-post/{id:Int}" page={BlogPostPage} name="blogPost" />
       <Route path="/posts/new" page={NewPostPage} name="newPost" />
       <Route path="/posts/{id:Int}/edit" page={EditPostPage} name="editPost" />
