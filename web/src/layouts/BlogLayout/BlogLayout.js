@@ -10,7 +10,7 @@ const BlogLayout = ({ children }) => {
         <Link to={routes.home()}>Home</Link>
         <Link to={routes.about()}>About</Link>
       </nav>
-      ,{children}
+      {children}
     </>
   )
 }

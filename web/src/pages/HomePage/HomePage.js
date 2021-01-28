@@ -1,11 +1,10 @@
 import BlogLayout from 'src/layouts/BlogLayout/BlogLayout'
+import BlogPostsCell from 'src/components/BlogPostsCell'
 
 const HomePage = () => {
   return (
     <BlogLayout>
-      <p>
-        Find me in <code>./web/src/pages/HomePage/HomePage.js</code>
-      </p>
+      <BlogPostsCell />
     </BlogLayout>
   )
 }
